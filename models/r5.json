@@ -1,0 +1,16 @@
+{
+  "type": "micro",
+  "wake_word": "R5",
+  "author": "0xPDG",
+  "website": "https://github.com/0xPDG",
+  "model": "https://raw.githubusercontent.com/0xpdg/custom_wake_word/refs/heads/main/models/r5.tflite",
+  "version": 1,
+  "trained_languages": ["en"],
+  "micro": {
+    "probability_cutoff": 0.63,
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
